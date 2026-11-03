@@ -1,0 +1,266 @@
+{
+  "course": {
+    "code": "MIS 1050",
+    "title": "Information Systems Foundations",
+    "meetingDays": [
+      "Mon",
+      "Wed"
+    ]
+  },
+  "items": [
+    {
+      "id": "information-systems-01",
+      "title": "Homework 1",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-01-22",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 2, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 2, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-02",
+      "title": "Homework 2",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-01-29",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 3, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 3, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-03",
+      "title": "Homework 3",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-02-12",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 5, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 5, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-04",
+      "title": "Homework 4",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-02-19",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 6, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 6, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-05",
+      "title": "Homework 5",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-03-12",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 9, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 9, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-06",
+      "title": "Homework 6",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-03-19",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 10, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 10, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-07",
+      "title": "Homework 7",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-03-26",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 11, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 11, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-08",
+      "title": "Homework 8",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-04-09",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 13, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 13, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-09",
+      "title": "Homework 9",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-04-16",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 14, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 14, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-10",
+      "title": "Homework 10",
+      "type": "homework",
+      "weightPercent": 2,
+      "dueDate": "2027-04-23",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 15, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 10 homework.",
+        "Calculated from \"Week 15, Friday\"."
+      ],
+      "groupName": "Homework",
+      "flags": []
+    },
+    {
+      "id": "information-systems-11",
+      "title": "Group Project Proposal",
+      "type": "project",
+      "weightPercent": 10,
+      "dueDate": "2027-02-01",
+      "dateSource": "relative",
+      "dayInferred": true,
+      "rawDateText": "Week 4",
+      "confidence": "medium",
+      "note": "The schedule gives the week but not the day.",
+      "systemNotes": [
+        "Calculated from \"Week 4\"."
+      ],
+      "groupName": null,
+      "flags": [
+        "calculated"
+      ]
+    },
+    {
+      "id": "information-systems-12",
+      "title": "Group Project Milestone",
+      "type": "project",
+      "weightPercent": 20,
+      "dueDate": "2027-02-26",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 7, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "Calculated from \"Week 7, Friday\"."
+      ],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "information-systems-13",
+      "title": "Final Project Presentation and Report",
+      "type": "presentation",
+      "weightPercent": 35,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "Week 16, during our scheduled final exam slot (TBA)",
+      "confidence": "medium",
+      "note": "Scheduled during finals week; the exact date isn't set.",
+      "systemNotes": [],
+      "groupName": null,
+      "flags": [
+        "tbd"
+      ]
+    },
+    {
+      "id": "information-systems-14",
+      "title": "Participation",
+      "type": "participation",
+      "weightPercent": 15,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    }
+  ],
+  "warnings": [],
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "durationMs": 10
+}

@@ -1,0 +1,201 @@
+{
+  "course": {
+    "code": "STAT 1001",
+    "title": "Introduction to Statistics",
+    "meetingDays": [
+      "Tue",
+      "Thu"
+    ]
+  },
+  "items": [
+    {
+      "id": "intro-statistics-01",
+      "title": "Problem Set 1",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-01-28",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Jan 28",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-02",
+      "title": "Problem Set 2",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-02-04",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Feb 4",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-03",
+      "title": "Problem Set 3",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-02-11",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Feb 11",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-04",
+      "title": "Problem Set 4",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-02-18",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Feb 18",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-05",
+      "title": "Midterm Exam",
+      "type": "exam",
+      "weightPercent": 25,
+      "dueDate": "2027-02-25",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Feb 25",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-06",
+      "title": "Problem Set 5",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-03-11",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Mar 11",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-07",
+      "title": "Problem Set 6",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-03-18",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Mar 18",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-08",
+      "title": "Problem Set 7",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-03-25",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Mar 25",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-09",
+      "title": "Problem Set 8",
+      "type": "homework",
+      "weightPercent": 2.5,
+      "dueDate": "2027-04-08",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Thu, Apr 8",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "20% split evenly across 8 problem sets."
+      ],
+      "groupName": "Problem sets",
+      "flags": []
+    },
+    {
+      "id": "intro-statistics-10",
+      "title": "Final Exam",
+      "type": "exam",
+      "weightPercent": 35,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "TBA (per the university final exam schedule)",
+      "confidence": "medium",
+      "note": "Held during finals week; the exact date isn't in the syllabus yet.",
+      "systemNotes": [],
+      "groupName": null,
+      "flags": [
+        "tbd"
+      ]
+    },
+    {
+      "id": "intro-statistics-11",
+      "title": "Participation and in-class activities",
+      "type": "participation",
+      "weightPercent": 20,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    }
+  ],
+  "warnings": [],
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "durationMs": 25
+}
