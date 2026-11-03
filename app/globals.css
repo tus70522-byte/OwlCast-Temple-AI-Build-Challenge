@@ -129,6 +129,8 @@
   body {
     background: #fff;
     font-size: 11pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
   .no-print,
   header[data-site-header],
@@ -141,6 +143,9 @@
   }
   .card {
     box-shadow: none;
+  }
+  article.card,
+  dl .card {
     break-inside: avoid;
   }
   a {
