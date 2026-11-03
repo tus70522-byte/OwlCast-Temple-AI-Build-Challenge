@@ -1,4 +1,4 @@
-import { addDays, dayOfWeek, type DayOfWeek, type ISODate } from "@/lib/dates";
+import { addDays, dayOfWeek, diffDays, type DayOfWeek, type ISODate } from "@/lib/dates";
 import { findNoClassDay, isFinalsDay, isStudyDay, type Semester } from "@/lib/calendar/semester";
 import { LONG_SHIFT_HOURS, PREP_DAYS, SHIFT_MAX_MOVE_DAYS } from "./config";
 import { isMajorItem } from "./forecast";
@@ -111,11 +111,13 @@ export function recommendStartDates(
     if (start < semester.classesBegin) start = semester.classesBegin;
 
     // Reason for break-day starts.
+    // Only multi-day breaks (e.g. Spring Break) get the "get ahead" reason, not single holidays.
     const noClass = findNoClassDay(semester, start);
-    if (noClass && primary !== "storm-moved") {
+    const isBreakPeriod = noClass ? diffDays(noClass.start, noClass.end) >= 2 : false;
+    if (noClass && isBreakPeriod && primary !== "storm-moved") {
       reason = `Use ${noClass.label} to get ahead.`;
     }
-    if (shiftNote) reason = primary === "default" && !noClass ? shiftNote : `${reason} ${shiftNote}`;
+    if (shiftNote) reason = primary === "default" && !isBreakPeriod ? shiftNote : `${reason} ${shiftNote}`;
 
     // 5) Already past → start now.
     const startDate: ISODate | "now" = start < today ? "now" : start;
