@@ -32,7 +32,8 @@ function mix(a: string, b: string, t: number): string {
 /** Cherry sequential scale for 0–max %, with whichever text color (ink/white) contrasts more. */
 export function cherryScale(value: number, max = 65): { bg: string; fg: string } {
   const t = Math.max(0, Math.min(1, value / max));
-  const bg = t < 0.5 ? mix("#FBF3F4", "#D9738A", t / 0.5) : mix("#D9738A", "#7A1A29", (t - 0.5) / 0.5);
+  // Two bands that skip the mid-luminance zone where neither ink nor white text reaches 4.5:1.
+  const bg = t < 0.5 ? mix("#FBF3F4", "#E39AAA", t / 0.5) : mix("#B4405A", "#6E1624", (t - 0.5) / 0.5);
   const fg = contrastRatio(bg, "#1A1A1A") >= contrastRatio(bg, "#FFFFFF") ? "#1A1A1A" : "#FFFFFF";
   return { bg, fg };
 }
