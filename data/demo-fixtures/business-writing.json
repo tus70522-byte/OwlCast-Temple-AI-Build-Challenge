@@ -1,0 +1,110 @@
+{
+  "course": {
+    "code": "BCOM 2100",
+    "title": "Business Writing",
+    "meetingDays": [
+      "Mon",
+      "Wed"
+    ]
+  },
+  "items": [
+    {
+      "id": "business-writing-01",
+      "title": "Professional Email Exercise",
+      "type": "other",
+      "weightPercent": 5,
+      "dueDate": "2027-01-13",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Wednesday, January 13",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "business-writing-02",
+      "title": "Persuasive Memo",
+      "type": "paper",
+      "weightPercent": 5,
+      "dueDate": "2027-02-01",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Monday, February 1",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "business-writing-03",
+      "title": "Annotated Bibliography",
+      "type": "paper",
+      "weightPercent": 5,
+      "dueDate": "2027-02-03",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Wednesday, February 3",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "business-writing-04",
+      "title": "Research Paper",
+      "type": "paper",
+      "weightPercent": 20,
+      "dueDate": "2027-02-22",
+      "dateSource": "absolute",
+      "dayInferred": false,
+      "rawDateText": "Monday, February 22, 2027",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "business-writing-05",
+      "title": "Final Portfolio",
+      "type": "project",
+      "weightPercent": 35,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "TBD",
+      "confidence": "low",
+      "note": "Due date is TBD and will be announced in class.",
+      "systemNotes": [],
+      "groupName": null,
+      "flags": [
+        "tbd"
+      ]
+    },
+    {
+      "id": "business-writing-06",
+      "title": "Workshop participation",
+      "type": "participation",
+      "weightPercent": 30,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": []
+    }
+  ],
+  "warnings": [],
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "durationMs": 10
+}

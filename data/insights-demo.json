@@ -1,0 +1,15 @@
+{
+  "illustrative": true,
+  "note": "Illustrative demo data. No real student data is used. Values are the percent of students in each group whose forecast has a Storm week that week.",
+  "semester": "spring-2027",
+  "weeks": 17,
+  "breakWeeks": [8],
+  "finalsWeeks": [16, 17],
+  "groups": [
+    { "name": "First-year Business", "size": 412, "values": [2, 4, 6, 18, 12, 15, 64, null, 10, 14, 12, 31, 16, 20, 24, 35, 22] },
+    { "name": "Sophomore Business", "size": 365, "values": [1, 3, 5, 14, 10, 17, 58, null, 12, 18, 15, 27, 19, 22, 26, 38, 25] },
+    { "name": "First-year Science & Tech", "size": 298, "values": [3, 5, 9, 16, 20, 24, 61, null, 15, 22, 19, 29, 24, 27, 30, 44, 33] },
+    { "name": "First-year Liberal Arts", "size": 341, "values": [1, 2, 4, 9, 8, 12, 41, null, 8, 11, 10, 18, 13, 17, 21, 29, 18] },
+    { "name": "Transfer students", "size": 187, "values": [2, 4, 7, 15, 11, 19, 52, null, 14, 16, 13, 26, 18, 23, 25, 33, 24] }
+  ]
+}

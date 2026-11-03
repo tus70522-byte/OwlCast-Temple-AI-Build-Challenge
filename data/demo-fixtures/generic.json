@@ -1,0 +1,87 @@
+{
+  "course": {
+    "code": null,
+    "title": "Your course",
+    "meetingDays": null
+  },
+  "items": [
+    {
+      "id": "generic-01",
+      "title": "Midterm Exam",
+      "type": "exam",
+      "weightPercent": 25,
+      "dueDate": "2027-02-17",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 6, Wednesday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "Calculated from \"Week 6, Wednesday\"."
+      ],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "generic-02",
+      "title": "Term Paper",
+      "type": "paper",
+      "weightPercent": 20,
+      "dueDate": "2027-03-26",
+      "dateSource": "relative",
+      "dayInferred": false,
+      "rawDateText": "Week 11, Friday",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [
+        "Calculated from \"Week 11, Friday\"."
+      ],
+      "groupName": null,
+      "flags": []
+    },
+    {
+      "id": "generic-03",
+      "title": "Final Exam",
+      "type": "exam",
+      "weightPercent": 30,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "Finals week (TBA)",
+      "confidence": "high",
+      "note": null,
+      "systemNotes": [],
+      "groupName": null,
+      "flags": [
+        "tbd"
+      ]
+    },
+    {
+      "id": "generic-04",
+      "title": "Homework",
+      "type": "homework",
+      "weightPercent": 25,
+      "dueDate": null,
+      "dateSource": "tbd",
+      "dayInferred": false,
+      "rawDateText": "Weekly",
+      "confidence": "high",
+      "note": "Weekly homework without individual dates.",
+      "systemNotes": [
+        "25% split evenly across 1 homework."
+      ],
+      "groupName": "Homework",
+      "flags": [
+        "tbd"
+      ]
+    }
+  ],
+  "warnings": [
+    "Mock mode: this is a sample result, not a reading of your file."
+  ],
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "durationMs": 9
+}
