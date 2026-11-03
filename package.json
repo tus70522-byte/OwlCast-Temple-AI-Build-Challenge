@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "generate:samples": "tsx scripts/generate-samples.ts",
+    "record:fixtures": "tsx scripts/record-fixtures.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.4.0",
