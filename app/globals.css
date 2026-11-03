@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+/*
+ * OwlCast design tokens. Light theme only (projectors wash out dark themes).
+ * Every text/background pair below is checked for WCAG AA in tests/unit/contrast.test.ts.
+ */
+@theme {
+  --color-cherry: #9d2235;
+  --color-cherry-dark: #7a1a29;
+  --color-cherry-light: #f7e8ea;
+  --color-ink: #1a1a1a;
+  --color-ink-muted: #55565a;
+  --color-line: #e4e4e7;
+  --color-line-strong: #c9c9cf;
+  --color-canvas: #fafaf9;
+  --color-surface: #ffffff;
+
+  /* Forecast ratings */
+  --color-clear-fg: #1e6b2e;
+  --color-clear-bg: #e9f5ec;
+  --color-busy-fg: #7a4f00;
+  --color-busy-bg: #fff3d6;
+  --color-storm-fg: #9d2235;
+  --color-storm-bg: #f7e8ea;
+  --color-break-fg: #3f4a5a;
+  --color-break-bg: #eef1f5;
+  --color-finals-fg: #ffffff;
+  --color-finals-bg: #7a1a29;
+
+  /* Attention (amber) */
+  --color-attention-fg: #8a4b00;
+  --color-attention-bg: #fff8eb;
+  --color-attention-line: #c27803;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.05), 0 14px 36px rgba(0, 0, 0, 0.09);
+
+  --animate-pulse-soft: pulse-soft 1.6s ease-in-out infinite;
+  --animate-drift: drift 2.4s ease-in-out infinite;
+
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.45;
+    }
+  }
+  @keyframes drift {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(6px);
+    }
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-cherry);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-cherry-light);
+    color: var(--color-ink);
+  }
+  input[type="date"],
+  input[type="time"] {
+    min-height: 44px;
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-card);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print: clean single-column forecast, no chrome or controls */
+@media print {
+  @page {
+    margin: 14mm;
+  }
+  body {
+    background: #fff;
+    font-size: 11pt;
+  }
+  .no-print,
+  header[data-site-header],
+  footer[data-site-footer],
+  [data-sonner-toaster] {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .card {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+.print-only {
+  display: none;
+}
